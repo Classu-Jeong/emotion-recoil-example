@@ -2,12 +2,7 @@ import { atom } from 'recoil'
 
 // import { USER_ATOM_KEY } from '../../utils/constants/atomKey'
 
-const userAtom = atom({
+export const userState = atom({
     key: 'USER_ATOM_KEY',
-    default: {
-        user: null,
-        checkError: null,
-    },
+    default: '',
 })
-
-export default userAtom

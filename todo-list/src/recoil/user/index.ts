@@ -1,7 +1,7 @@
-import userAtom from './atom'
+import { userState } from './atom'
 
 // import userWithCheck from './withCheck'
 
 // export { userWithCheck }
 
-export default userAtom
+export default userState

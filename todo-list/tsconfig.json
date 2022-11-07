@@ -23,8 +23,7 @@
             "@components/*": ["src/components/*"],
             "@interface/*": ["src/interface/*"],
             "@utils/*": ["src/utils/*"],
-            "@styles/*": ["src/styles/*"],
-            "@recoil/*": ["src/recoil"]
+            "@styles/*": ["src/styles/*"]
         }
     },
     "include": [
